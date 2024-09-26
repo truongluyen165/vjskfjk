@@ -1,0 +1,93 @@
+/* Container tổng */
+body{
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header và Footer */
+.header, .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    height: 98px; /* Đặt chiều cao cố định cho Header và Footer */
+    line-height: 100px;
+}
+
+/* Content chính */
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100%; /* Đảm bảo content chiếm hết chiều cao */
+}
+
+/* Cột bên trái */
+.left {
+    width: 25%;
+    background-color: #c8443f;
+    color: white;
+    
+    
+   
+}
+
+.left ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.left li {
+    padding: 10px;
+    font-size: 25px;
+    
+    
+}
+
+
+
+
+.left ul li:hover {
+    background-color: #B0BEC5; /* Màu khi di chuột vào */
+    color: black;              /* Màu chữ khi di chuột vào */
+}
+
+/* Phần Main */
+.main {
+    width: 60%;
+    background-color: #bc3581;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+/* Cột bên phải */
+.right {
+    width: 26%;
+    background-color: #40692fef;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+/* Footer */
+.footer {
+    background-color: #241c91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
